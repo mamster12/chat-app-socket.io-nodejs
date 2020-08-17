@@ -41,7 +41,8 @@ button,
 a.logout {
     cursor: pointer;
     padding: 12px;
-    background: #7c5cbf;
+    /* background: #7c5cbf; */
+    background: #0067c1;
     border: none;
     color: white;
     font-size: 16px;
@@ -49,7 +50,7 @@ a.logout {
 }
 
 button:hover {
-    background: #6b47b8;
+    background: #005bab;
 }
 
 button:disabled {
@@ -189,4 +190,18 @@ a.logout {
     margin-left: 24px;
     bottom: 24px;
     font-size: 14px;
+}
+
+.app__title {
+    text-align: center;
+    color: #fff;
+    background-image: linear-gradient(
+        -225deg,
+        #22e1ff 0%,
+        #1d8fe1 48%,
+        #625eb1 100%
+    );
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 20px;
 }
